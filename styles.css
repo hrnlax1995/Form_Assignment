@@ -1,0 +1,131 @@
+.header {
+  background-color: #2E2612;
+  width: 100%;
+  height: 67px;
+  z-index: 1;
+  position: relative;
+}
+
+.header ul {
+  margin:0;
+  padding:0;
+}
+
+.header li{
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  min-width: 90px;
+  float:right;
+  margin: 10px 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.signup {
+  background-color: white;
+  color: #18A0FB;
+}
+.login {
+  background-color: #BB3FC6:
+  color: white;
+}
+
+.contents img {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: absolute;
+}
+
+.orangebox {
+  display:flex;
+  background-color: #FFB800;
+  opacity: .8;
+  z-index: 3;
+  width: 50%;
+  top: 400px;
+  position: relative;
+}
+.orangebox h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+.second-contents img{
+  width: 100%;
+  height: auto;
+  opacity: .6;
+  margin-top:300px;
+  position: absolute;
+}
+
+.filter {
+ background: #000;
+}
+
+
+.blackbox {
+  background-color: black;
+  width:70%;
+  display:block;
+  margin:200px 200px;
+  text-align: center;
+  z-index: 4;
+}
+.blackbox p {
+  color: white;
+  font-size: 48px;
+  margin:120px 120px;
+}
+
+.whitebox {
+  background-color: #FAFAFA;
+  width:70%;
+  height:80%;
+  display:block;
+  margin: 200px 200px;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 30px;
+}
+
+.button {
+  display       : inline-block;
+  border-radius : 5%;
+  font-size     : 26pt;
+  text-align    : center;
+  cursor        : pointer;
+  padding       : 12px 26px;
+  background    : #a64dff;
+  color         : #ffffff;
+  line-height   : 1em;
+  transition    : .3s;
+  box-shadow    : 4px 4px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #a64dff;    /* 枠の指定 */
+  margin-top: 20px;
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #a64dff;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.form {
+  margin:100px 0;
+　width:40px;
+}
+
+.Email {
+  padding:20px 0;
+}
+
+ input[type="text"] {
+    width: 20em;
+  height: 3em;
+ }
